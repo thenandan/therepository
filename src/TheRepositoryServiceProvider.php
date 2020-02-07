@@ -26,8 +26,7 @@ class TheRepositoryServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        $this->mergeConfigFrom(__DIR__ . '/../config/config.php', 'therepository.config');
-
+        $this->mergeConfigFrom(__DIR__ . '/../config/therepository.php', 'therepository.config');
         $this->loadMigrationsFrom(__DIR__ . '/../database/migrations');
         $this->loadTranslationsFrom(__DIR__ . '/../resources/lang', 'therepository');
     }

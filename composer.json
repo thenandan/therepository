@@ -10,6 +10,8 @@
 			"homepage": "https://github.com/thenandan"
 		}
 	],
+	"homepage": "https://github.com/thenandan/therepository",
+	"keywords": ["Laravel Repository", "Laravel Repository Pattern", "Laravel Abstract Repository"],
 	"minimum-stability": "stable",
 	"prefer-stable": true,
 	"config": {
